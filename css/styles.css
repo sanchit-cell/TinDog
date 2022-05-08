@@ -1,0 +1,157 @@
+body{
+    font-family: 'Montserrat-Black', sans-serif;
+    margin: 0;
+}
+
+#title{
+    background-color: aquamarine;
+    /* background-color: #FF4c68; */
+
+}
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 150%;
+}
+h2{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 150%;
+
+}
+h3{
+    font-family: 'Montserrat-Black', sans-serif;
+    
+    font-weight: 700;
+
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+    
+}
+/* Navigation Bar */
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.navbar{
+    margin-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light", sans-serif;
+    
+}
+
+/* Button */
+.Download{
+    margin: 5% 3% 5% ;
+}
+/* title image */
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 1;
+    margin-left: 20px;
+   
+}
+
+@media (max-width: 990px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+    
+
+.features{
+    padding: 7% 15%;
+    position: relative;
+    z-index: 2;
+   /* bottom: 200px; */
+   
+   background-color: #fff;
+    
+}
+
+.col-lg-4{
+    text-align: center;
+    line-height: 150%;
+    
+}
+.fea{
+    width: 70%;
+    margin: 0 auto;
+    color: gray;
+}
+.icon{
+    color: #B9F8D3;
+
+}
+.icon:hover{
+    color: aquamarine;
+}
+#testimonials{
+   
+    text-align: center;
+    background-color: #B9F8D3;
+    color: #000;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px auto auto;
+
+}
+#press{
+    background-color: #B9F8D3;
+    text-align: center;
+    padding: 3%;
+
+}
+.press-logo{
+    width: 15%;
+    margin: 50px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+#cta{
+    background-color: aquamarine;
+
+}
+.last{
+    
+    padding: 7% 20%;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+    padding: 7% 15% ;
+}
+.icons{
+    margin: 0 20px 20px;
+    color: #000;
+}
+.icons:hover{
+    color: aquamarine;
+    
+}
+#pricing{
+    text-align: center;
+    padding: 4% 5%;
+}
+.card{
+    margin-top: 20px;
+}
